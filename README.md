@@ -100,6 +100,6 @@ Still, Batman and Joker are just fictional characters. Do not think that you can
 
 So if you are writing a function, start by asking yourself: do you need to return a value, or do you need to have a side effect? And if you are getting familiar with some function you didn't write, the very first thing you should find out is: does it return a value, or does it have a side effect? 
 
-Postscript: An experienced developer can object that I oversimplified the concept of a pure function without mentioning some other important properties required to call a function pure. And they would be right. But that's intentional, as I wanted to keep this example as simple as possible, and I hope I managed to do that.
+**Postscript**: An experienced developer can object that I oversimplified the concept of a pure function without mentioning some other important properties required to call a function pure. And they would be right. But that's intentional, as I wanted to keep this example as simple as possible, and I hope I managed to do that.
 
 ![image](https://github.com/UniBreakfast/return-vs-side-effect/assets/19654456/7e21353d-9bbf-4f65-95c3-112f1aa9e219)
