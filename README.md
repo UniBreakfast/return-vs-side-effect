@@ -1,12 +1,14 @@
-# return vs side effect example
+# `return` vs *side effect* example
 
 #### also known as Batman vs Joker example
 
+## [Русский](batman-joker.ru.md) | English | [Українська](batman-joker.ua.md)
+
 There are two main ways a function can be written in JavaScript (other languages too, but my examples are in JavaScript). One way is to **return a value**, and the other way is to **have a side effect**. And those are often misunderstood or mixed up by beginners. So let's clarify that with an example. And as those types of functions are often called **pure functions** and **impure functions** or **dirty functions**, I will (non-commercially) use the Batman and Joker analogy as they are possibly the most famous pure and impure characters in the world. And Joker does have a lot of dirty tricks up his sleeve, doesn't he?
 
-Batman always puts maximum effort in order not just to fight the crime, but also to bring the criminals to justice, alive. And result is always just as one would expect: they eventually escape from the prison or asylum, so he will be there to return them back. Yet, his actions are always predictable, and he never does anything unexpected. And so all his heroics change nothing in the world or even in Gotham. So Batman always gets the reason to return to our pages and screens.
+Batman always puts maximum effort in order not just to fight the crime, but also to bring the criminals to justice, alive. And result is always just as one would expect: they eventually escape from the prison or asylum, so Batman will be there to return them back. Yet, his actions are always predictable, and he never does anything unexpected. And so all his heroics change nothing in the world or even in Gotham. So Batman always gets the reason to return to our pages and screens.
 
-Joker, on the other hand, is so unpredictable. Seemingly random even. He loves doing something unexpected, and he always leaves a mess behind him. Anything and everything he does, he does it for the show. And he always leaves a mark.
+Joker, on the other hand, is so unpredictable. Seemingly random even. He loves doing something unexpected, and he always leaves a mess behind him. Anything and everything Joker does, he does it for the show. And he always leaves a mark.
 
 So, let's see the example. We'll examine two sets of simple functions that perform the same calculations but present results differently:
 
@@ -100,6 +102,6 @@ Still, Batman and Joker are just fictional characters. Do not think that you can
 
 So if you are writing a function, start by asking yourself: do you need to return a value, or do you need to have a side effect? And if you are getting familiar with some function you didn't write, the very first thing you should find out is: does it return a value, or does it have a side effect? 
 
-**Postscript**: An experienced developer can object that I oversimplified the concept of a pure function without mentioning some other important properties required to call a function pure. And they would be right. But that's intentional, as I wanted to keep this example as simple as possible, and I hope I managed to do that.
+**P.S.**: An experienced developer can object that I oversimplified the concept of a pure function without mentioning some other important properties required to call a function pure. And they would be right. But that's intentional, as I wanted to keep this example as simple as possible, and I hope I managed to do that.
 
 ![image](https://github.com/UniBreakfast/return-vs-side-effect/assets/19654456/7e21353d-9bbf-4f65-95c3-112f1aa9e219)
