@@ -83,6 +83,7 @@ const q1avg = jCalcQuartAvg(january, february, march);
 const q2avg = jCalcQuartAvg(april, may, june);
 const q3avg = jCalcQuartAvg(july, august, september);
 const q4avg = jCalcQuartAvg(october, november, december);
+// все четыре константы получили значение undefined
 const yearAvg = jCalcYearAvg(q1avg, q2avg, q3avg, q4avg);
 
 // Но что мы видим? Не то, что можно было бы ожидать...
