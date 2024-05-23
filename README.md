@@ -101,7 +101,7 @@ So if you only care about showing the results to the console or stash them somew
 
 Still, Batman and Joker are just fictional characters. Do not think that you can't use the Joker's way of doing things. Quite often you will need to modify the UI, sort an array, add or remove something somewhere, open or close a modal, write to a file, update a database - and all those actions are side effects. And that's perfectly fine. No better or worse than returning a value. Normally we use both. Just avoid mixing those two ways of doing things in the same function if you can. 
 
-So if you are writing a function, start by asking yourself: do you need to return a value, or do you need to have a side effect? And if you are getting familiar with some function you didn't write, the very first thing you should find out is: does it return a value, or does it have a side effect? 
+**So if you are writing a function, start by asking yourself: do you need to return a value, or do you need to have a side effect? And if you are getting familiar with some function you didn't write, the very first thing you should find out is: does it return a value, or does it have a side effect?** 
 
 **P.S.**: An experienced developer can object that I oversimplified the concept of a pure function without mentioning some other important properties required to call a function pure. And they would be right. But that's intentional, as I wanted to keep this example as simple as possible, and I hope I managed to do that.
 
